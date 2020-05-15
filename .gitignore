@@ -23,6 +23,8 @@ wheels/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
+#data.nosync
+/data.nosync
 .installed.cfg
 *.egg
 MANIFEST
