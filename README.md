@@ -1,56 +1,22 @@
-# hubNashville
+### Nashville Software School Class Project - Analysis and Report for hubNashville
 
-Repo for analysis around the hubNashville dataset. Notes for initial ideation can be found [here](https://docs.google.com/document/d/1wKn1WTVtFv4n15zGlfnNa1O2N7o691sWXYSwkBDfj-k/edit) 
+For this project, the whole class worked with data provided by [hubNashville](https://hub.nashville.gov/s/?language=en_US) in order to create insights on how they could be better utilizing their time and focus. Based on discussions with hubNashville representatives, the NSS Data Analytics Team investigated the following:
+* Where resources might be allocated to encourage greater online engagement with the public by looking at current trends in phone/online requests
+* Current trends in service requests on a temporal basis to provide insight into appropriate staffing
+* Geospatial Analyses of Trash and Covid-19 service requests
+Other interesting analyses:
+* Analysis on Property Inspector Violations reporting
+* Analysis of Dead Animal Pickups
+* Correlation to Police Dangerous Animal Reports
 
-#### Setup
+For my part in this project, I worked closely with [John Borthick](https://github.com/JohnBorthick) and [Diego Alvarez](https://github.com/diegodaa), looking at trends from 2020 in the differences between phone vs. online request based on request types. We found that other than "Quick Requests" (which are a type that only occurs during a phone call), the highest area of concentration of people calling in vs. using an online platform was the category, "Trash, Recycling & Litter."  
 
-1. Make a branch for yourself. All your work should go into that branch
-2. Make 'data' and 'notebooks' folders. If you plan to make maps, you can also make a `maps` folder
-3. `add`, `commit`, `push` to create your branch
+![Online vs. Phone by Request Type](/assets/online_vs_phone.jpg)  
 
-### Important notes
 
-- Everyone is highly encouraged to incorporate additional datasets into their analysis. Doing so will greatly enhance your insights. For example, council districts or codes violations datasets available at <https://data.nashville.gov/>
-- The group assignments are not meant to be rigid. Please feel free to nudge your analysis where your investigation leads
-- Communication is paramount. Please communicate with your teammates, other groups working on the same assignment and the whole class
+When we further broke this category down into the provided subcategories, we found that the top three subcategories were all related to cart service.  
 
-### Team assignments for hubNashville questions
+![Trash, Recycling & Litter Subrequests, Online vs. Phone](/assets/subrequests.jpg)  
 
-Bobcats, Cheetahs, Jaguars
 
-Dead animal pickup, debris, and other (sub)request types
-1. Count of dead animal pickup (or other categories)
-2. Visualizations could include histograms
-3. count requests by zip or other geographical region
-4. compare between different events (covid, tornado, control) and time of day. Use this info to inform resource allocation
-
----
-Bobcats, Tigers, Cheetahs
-
-Aggregate count of subrequest type by hour/month and how many of each (sub)request type are open at a given time to help staff forecast when heavy request load will occur
-1. Consider dividing into 6hr chunks/bins for unit of analysis (morning, afternoon, evening, night)
-
----
-Bobcats, Sand Cats, Jaguars
-
-Visualize geographical differences for time to completion/request type/other factors
-1. Identify spikes/outliers/trends across different dimensions (time/request type/volume/etc.)
-2. Intention to inform which areas have the most activity and help direct resources appropriately
-  a. How do request types vary across different areas of the city? (use as way to educate population rather than treat a symptom)
-  b. Impact of violations/requests regarding covid by council district
-
----
-Sand Cats, Tigers, Jaguars
-
-Visualize temporal differences for time to completion/request type/other factors.
-1. Identify spikes/outliers/trends across different dimensions (location/request type/volume/etc.)
-2. Intention to inform which areas have the most activity and help direct resources appropriately
-  a. How do request types vary across different areas of the city? (use as way to educate population rather than treat a symptom)
-  b. Impact of violations/requests regarding covid by council district
-
----
-Sand Cats, Tigers, Cheetahs
-
-Look at differences (who is calling and why, % of calls) between requests online (website and app) and phone calls.
-1. Identify differences (time of day/month/year, location, request type, etc.) to focus marketing to direct more users to online platforms
-2. Are there certain types that lend themselves to reporting through phone, use this as an opportunity to improve or modify online experience for these request types
+This information is useful to Metro Nashville because it shows the areas in which they can either improve the app and website or focus their marketing for the web platforms. Influencing more people to use an online platform helps save the city money in staffing the call center.
